@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\多线程">
+      <UniqueIdentifier>{36938b20-bdaf-494a-8e81-e2237efa3e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\难点汇总">
+      <UniqueIdentifier>{63b2d0fb-0eea-43bc-83b8-2d7201d7f1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\模板">
+      <UniqueIdentifier>{8c5b4184-2b5b-4d50-92c8-74fe51fdcb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tasert">
+      <UniqueIdentifier>{4d103617-a195-440a-9e29-4d576d14a7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tstring">
+      <UniqueIdentifier>{77de79de-a29c-4f5a-a8be-78204d7d9208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{77929025-2e2e-4e0f-928c-16fda25a9f95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tassert.cpp">
+      <Filter>源文件\tasert</Filter>
+    </ClCompile>
+    <ClCompile Include="tassert2.cpp">
+      <Filter>源文件\tasert</Filter>
+    </ClCompile>
+    <ClCompile Include="enhance_loop.cpp">
+      <Filter>源文件\难点汇总</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_release.cpp">
+      <Filter>源文件\难点汇总</Filter>
+    </ClCompile>
+    <ClCompile Include="puzzle_program.cpp">
+      <Filter>源文件\难点汇总</Filter>
+    </ClCompile>
+    <ClCompile Include="string_test.cpp">
+      <Filter>源文件\tstring</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_thread_test.cpp">
+      <Filter>源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="tony-cpluscplus-stdlib.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda__multi_thread_test.cpp">
+      <Filter>源文件\多线程</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="templateT.h">
+      <Filter>源文件\模板</Filter>
+    </ClInclude>
+    <ClInclude Include="tassert.h">
+      <Filter>源文件\tasert</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
